@@ -1,0 +1,26 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "this is reactjs app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Gautam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1"
+  }
+}
